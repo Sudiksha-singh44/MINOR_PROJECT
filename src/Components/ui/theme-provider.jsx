@@ -31,6 +31,7 @@ export function ThemeProvider({ children, defaultTheme = "light", storageKey = "
   )
 }
 
+/* eslint-disable react-refresh/only-export-components */
 export const useTheme = () => {
   const context = useContext(ThemeContext)
   if (context === undefined)

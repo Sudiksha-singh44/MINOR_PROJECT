@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+// eslint-disable-next-line no-unused-vars
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
@@ -16,7 +17,8 @@ export default function Navbar() {
   });
 
   const handleSignIn = () => {
-    console.log("Sign in clicked");
+    // Sign in functionality to be implemented
+    // Could navigate to auth page or open modal
   };
 
   const scrollToSection = (href) => {

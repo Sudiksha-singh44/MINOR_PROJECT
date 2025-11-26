@@ -3,9 +3,10 @@
 /**
  * Shows a user-friendly error message
  * @param {string} message - Error message to display
- * @param {string} type - Type of error (error, warning, info)
+ * @param {string} _type - Type of error (error, warning, info) - currently unused
  */
-export const showError = (message, type = "error") => {
+// eslint-disable-next-line no-unused-vars
+export const showError = (message, _type = "error") => {
   // For now, using alert. Can be replaced with toast notifications later
   alert(message);
 };

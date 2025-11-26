@@ -46,5 +46,6 @@ const Button = React.forwardRef(
 )
 Button.displayName = "Button"
 
+/* eslint-disable react-refresh/only-export-components */
 export { Button, buttonVariants }
 

@@ -28,5 +28,6 @@ function Badge({ className, variant, ...props }) {
   )
 }
 
+/* eslint-disable react-refresh/only-export-components */
 export { Badge, badgeVariants }
 

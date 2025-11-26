@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from "framer-motion";
 import {
   UploadCloud,
@@ -159,8 +160,9 @@ const Analyzer = () => {
       toast.info("Generating PDF report...", { duration: 2000 });
       generatePDFReport(result, file?.name || "resume");
       toast.success("PDF report downloaded successfully! 🎉");
-    } catch (error) {
-      console.error("Error generating PDF:", error);
+    } catch {
+      // Log error for debugging (in production, consider using error tracking service)
+      // Error is caught and user is notified via toast
       toast.error("Failed to generate PDF. Please try again.");
     }
   };
@@ -185,12 +187,13 @@ const Analyzer = () => {
     { name: "Keywords", score: result.categoryScores.keywords },
   ] : [];
 
-  const radarData = result ? [
-    { category: "ATS", score: result.categoryScores.ats, fullMark: 100 },
-    { category: "Content", score: result.categoryScores.content, fullMark: 100 },
-    { category: "Format", score: result.categoryScores.format, fullMark: 100 },
-    { category: "Keywords", score: result.categoryScores.keywords, fullMark: 100 },
-  ] : [];
+  // Radar chart data (currently not used but kept for future use)
+  // const radarData = result ? [
+  //   { category: "ATS", score: result.categoryScores.ats, fullMark: 100 },
+  //   { category: "Content", score: result.categoryScores.content, fullMark: 100 },
+  //   { category: "Format", score: result.categoryScores.format, fullMark: 100 },
+  //   { category: "Keywords", score: result.categoryScores.keywords, fullMark: 100 },
+  // ] : [];
 
   const containerVariants = {
     hidden: { opacity: 0 },

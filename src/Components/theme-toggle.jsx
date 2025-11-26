@@ -1,6 +1,7 @@
 import { Moon, Sun } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useTheme } from "@/components/ui/theme-provider"
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion"
 
 export function ThemeToggle() {

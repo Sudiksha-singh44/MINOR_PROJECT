@@ -1,5 +1,4 @@
 import React, { lazy, Suspense } from "react";
-import { motion } from "framer-motion";
 import { ScrollProgress } from "./components/scroll-progress";
 import { Skeleton } from "./components/ui/skeleton";
 

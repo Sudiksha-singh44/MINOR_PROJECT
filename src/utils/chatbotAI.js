@@ -166,6 +166,7 @@ const findDirectAnswer = (input) => {
 };
 
 // Generate intelligent response based on user input
+// eslint-disable-next-line no-unused-vars
 export const generateResponse = (userInput, conversationHistory = []) => {
   if (!userInput || userInput.trim().length === 0) {
     return "I'd be happy to help! Please ask me a question about resume optimization, or select one of the questions below.";
