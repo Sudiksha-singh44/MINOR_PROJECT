@@ -1,6 +1,6 @@
 // Advanced analysis utilities for realistic resume analysis
 
-// Field-specific skill databases
+
 const fieldSkills = {
   "Data Science": {
     extracted: ["Python", "Pandas", "NumPy", "Scikit-learn", "Machine Learning", "SQL", "Data Analysis", "Jupyter", "Matplotlib", "Seaborn"],
