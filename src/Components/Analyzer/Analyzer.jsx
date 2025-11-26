@@ -24,13 +24,13 @@ import {
   Zap,
 } from "lucide-react";
 import { toast } from "sonner";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Badge } from "@/components/ui/badge";
-import { Progress } from "@/components/ui/progress";
-import { AnalyzerSkeleton } from "@/components/loading-skeleton";
+import { Button } from "@/Components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/Components/ui/card";
+import { Input } from "@/Components/ui/input";
+import { Label } from "@/Components/ui/label";
+import { Badge } from "@/Components/ui/badge";
+import { Progress } from "@/Components/ui/progress";
+import { AnalyzerSkeleton } from "@/Components/loading-skeleton";
 import { validateFile, formatFileSize } from "../../utils/errorHandler";
 import { analyzeResume, getScoreColor, getScoreLabel, getPriorityColor } from "../../utils/analyzerUtils";
 import { generatePDFReport } from "../../utils/pdfExport";

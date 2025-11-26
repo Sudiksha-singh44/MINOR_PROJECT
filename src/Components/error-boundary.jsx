@@ -1,7 +1,7 @@
 import React from "react"
 import { ErrorBoundary } from "react-error-boundary"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/Components/ui/card"
+import { Button } from "@/Components/ui/button"
 import { AlertCircle, RefreshCw } from "lucide-react"
 
 function ErrorFallback({ error, resetErrorBoundary }) {

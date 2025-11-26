@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from "react";
-import { ScrollProgress } from "./components/scroll-progress";
-import { Skeleton } from "./components/ui/skeleton";
+import { ScrollProgress } from "./Components/scroll-progress";
+import { Skeleton } from "./Components/ui/skeleton";
 
 // ✅ Lazy load components for better performance
 const Navbar = lazy(() => import("./Components/Navbar/Navbar"));

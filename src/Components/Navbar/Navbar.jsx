@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import { Menu, X } from "lucide-react";
-import { ThemeToggle } from "@/components/theme-toggle";
+import { ThemeToggle } from "@/Components/theme-toggle";
 import Logo from '../../assets/logo1.png';
 import { NAV_LINKS } from '../../utils/constants';
 

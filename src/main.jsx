@@ -2,8 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import { ThemeProvider } from './components/ui/theme-provider'
-import { AppErrorBoundary } from './components/error-boundary'
+import { ThemeProvider } from './Components/ui/theme-provider'
+import { AppErrorBoundary } from './Components/error-boundary'
 import { Toaster } from 'sonner'
 
 createRoot(document.getElementById('root')).render(
